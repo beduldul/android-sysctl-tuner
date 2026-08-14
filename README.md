@@ -1,15 +1,15 @@
-# Interactive Android Sysctl Tuner Utility
+# Interactive Android Sysctl Tuner Utility v1.1.0
 
-An interactive shell utility for Android terminals (Termux / ADB Shell) to inspect and tune Linux kernel virtual memory, disk queue read-ahead, and TCP congestion algorithms.
+An interactive shell utility for Android terminals (Termux / ADB Shell) to inspect, tune, and manage Linux kernel virtual memory parameters, page cache dropping, storage queue read-ahead, and IO scheduler policies.
 
 ---
 
-## 🛠 Features
+## 🛠 Features in v1.1.0
 
-- **Real-Time Inspection**: Displays active `vfs_cache_pressure`, `swappiness`, and storage queue read-ahead settings.
-- **Preset Modes**:
-  - **Standard Tuning**: `vm.vfs_cache_pressure = 100`.
-  - **High Performance Tuning**: `vm.vfs_cache_pressure = 50`, `read_ahead_kb = 2048`, `tcp_congestion_control = bbr`.
+- **Real-Time Inspection**: Displays active `vfs_cache_pressure`, `swappiness`, and TCP congestion control algorithms.
+- **Cache Management**: Instant RAM page cache purging (`drop_caches`) and memory compaction.
+- **IO Scheduler Optimizer**: Dynamically switches block storage queues to `kyber` or `mq-deadline`.
+- **High-Performance Preset**: Applies `vm.vfs_cache_pressure = 50`, 2MB UFS read-ahead, and TCP FQ pacing.
 
 ---
 
