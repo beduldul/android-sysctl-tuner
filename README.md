@@ -4,7 +4,7 @@ An interactive shell utility for Android terminals (Termux / ADB Shell) to inspe
 
 ---
 
-## 🛠 Features in v1.1.0
+## Features in v1.1.0
 
 - **Real-Time Inspection**: Displays active `vfs_cache_pressure`, `swappiness`, and TCP congestion control algorithms.
 - **Cache Management**: Instant RAM page cache purging (`drop_caches`) and memory compaction.
@@ -13,7 +13,7 @@ An interactive shell utility for Android terminals (Termux / ADB Shell) to inspe
 
 ---
 
-## 💻 Usage
+## Usage
 
 ```bash
 su -c ./sysctl_tuner.sh
@@ -21,5 +21,5 @@ su -c ./sysctl_tuner.sh
 
 ---
 
-## 📄 License
+## License
 MIT License
