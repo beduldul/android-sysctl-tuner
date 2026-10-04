@@ -1,3 +1,4 @@
+[![shellcheck](https://github.com/beduldul/android-sysctl-tuner/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/beduldul/android-sysctl-tuner/actions/workflows/shellcheck.yml)
 # Interactive Android Sysctl Tuner Utility v1.1.0
 
 An interactive shell utility for Android terminals (Termux / ADB Shell) to inspect, tune, and manage Linux kernel virtual memory parameters, page cache dropping, storage queue read-ahead, and IO scheduler policies.
