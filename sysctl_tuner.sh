@@ -17,7 +17,8 @@ echo "  4) Restore Stock Presets"
 echo "  5) Exit"
 echo "=========================================="
 
-read -p "Option [1-5]: " opt
+printf "Option [1-5]: "
+read -r opt
 case $opt in
     1)
         echo "[*] Applying High-Performance Presets..."
